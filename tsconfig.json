@@ -1,0 +1,17 @@
+{
+    "include": ["./src/*"],
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitOverride": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "useUnknownInCatchVariables": false,
+        "typeRoots": ["./node_modules/@types"]
+    },
+    "types": ["jest"]
+}
