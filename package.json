@@ -1,8 +1,8 @@
 {
     "name": "koi-core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
-    "main": "index.js",
+    "main": "dist/koi-core.js",
     "type": "module",
     "scripts": {
         "build": "rimraf dist && rollup -c rollup/rollup.prod.config.js",
