@@ -83,4 +83,4 @@ class Koi {
     }
 }
 
-export { Koi };
+export { Koi, KoiConstructor, KoiPlugin };
